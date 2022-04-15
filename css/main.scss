@@ -1,0 +1,135 @@
+//Used a custom font family for the website them
+@font-face {
+    font-family:Helvetica-HvEx;
+    src: url(../fonts/HelveticaNeueLTStd-HvEx.otf);
+}
+
+//styling for navigation menu
+.menu-text a{
+    font-size:2vw;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-text a:hover{
+    color: #CD2128;
+    font-weight: lighter;
+}
+.menu-text-active a{
+    color: #CD2128;
+}
+
+
+.menu-title {
+    color: #CD2128;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+//styling news article styling
+.story-band {
+    min-height: 250px;
+}
+
+.story-band a{
+    text-align:left; 
+    padding: 5%; 
+    text-decoration: none; 
+    font-weight: bolder; 
+    text-transform: uppercase; 
+    color:white; 
+    text-shadow: 2px 2px 4px #000000;
+    font-family: Helvetica-HvEx, Helvetica, Arial, sans-serif;
+}
+
+.story-band a:hover{
+    color: rgb(221, 220, 220);
+}
+.story h2{
+    color:white;
+    font-family: Helvetica-HvEx, Helvetica, Arial, sans-serif;
+    vertical-align: bottom;
+    padding-top: 1%;
+}
+
+.heading {
+    font-size:7vw;
+    
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.back-top a{
+    text-decoration: none;
+    color:#000000;
+    font-weight: bold;
+
+}
+
+.back-top a:hover{
+    color: #CD2128;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.newletter h2{
+    font-weight: bold;
+}
+a {
+    color:#CD2128;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    
+}
+//styling schedule page styling
+.schedule h5{
+    font-family: Helvetica-HvEx, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.schedule h6{
+    color:#CD2128;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+i:hover {
+    cursor: pointer;
+}
+  
+.artIcons{
+    font-size:1.5em;
+}
+
+.like:hover {
+    color: #CD2128;
+}
+
+.comment:hover{
+    color: #CD2128;
+}
+
+.save:hover{
+    color: #CD2128;
+}
+
+.contact-li{
+    list-style-type: none;
+}
+
+.comm-1-date{
+    font-size: 65%;
+    color:#CD2128;
+}

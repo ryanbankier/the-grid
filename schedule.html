@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Images sourced from https://www.motorsport.com/filter/f1/photos/ -->
+    <!--Images sourced from https://www.formula1.com/en/racing/2022.html -->
+    <!-- Bootstrap CSS -->
+    <link href="css/boostrap/bootstrap.css" rel="stylesheet">
+    <!-- My own CSS-->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon-flag.png">
+    <title>The Grid - Schedule</title>
+  </head>
+  <body>
+  <!--Navigation-->
+  <div class="container-fluid">
+    <nav class="nabvar navbar-light">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-1 align-self-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="col-sm p-2">
+            <a class="navbar-brand p-2" href="index.html">
+              <img src="images/the-grid_logo.png" alt="" width="150"> 
+            </a>
+            <div class="offcanvas offcanvas-start offcanvas-dark bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close  btn-outline-light text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body menu-text">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item ">
+                    <a href="index.html" aria-current="page">News</a>
+                  </li>
+                  <li class="nav-item menu-text-active">
+                    <a href="schedule.html">schedule</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="standings.html">Standings</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a href="results.html">Race Results</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="newsletter.html">Newsletter</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a href="saved.html">Saved Articles</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col align-self-end">
+        <h1 class="text-end display-1">Schedule</h1>
+      </div>
+    </nav>
+  </div>
+  <div class="container-fluid bg-dark"><br></div>
+  <!--content-->
+  <div class="container-fluid schedule p-2">
+    <div class="row row-cols-1 row-cols-md-4 g-3">
+      <div class="col">
+        <div class="card">
+          <img src="images/bahrain-track.png" class="card-img-top" alt="bahrain-track">
+          <div class="card-body">
+            <h6 class="card-title">Round 1</h6>
+            <h5 class="card-title">18-20 MAR<img src="images/qatar-flag.png" alt="qatar flag" style="width: 30px;margin:1%"></h5>
+            <hr>
+            <h5 class="card-title">Bahrain</h5>
+            <p class="card-text">FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/saudi-arabia.png" class="card-img-top" alt="bahrain-track">
+          <div class="card-body">
+            <h6 class="card-title">Round 2</h6>
+            <h5 class="card-title">25-27 MAR<img src="images/saudi-flag.png" alt="saudi-flag" style="width: 30px; margin:1%"></h5>
+            <hr>
+            <h5 class="card-title">Saudi Arabia</h5>
+            <p class="card-text">FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/australia-track.png" class="card-img-top" alt="australia-track">
+          <div class="card-body">
+            <h6 class="card-title">Round 3</h6>
+            <h5 class="card-title">8-10 APR<img src="images/aus-flag.png" alt="qatar flag" style="width: 30px; margin:1%"></h5>
+            <hr>
+            <h5 class="card-title">Austrailia</h5>
+            <p class="card-text">FORMULA 1 HEINEKEN AUSTRALIAN GRAND PRIX 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/italy.png" class="card-img-top" alt="italy-track">
+          <div class="card-body">
+            <h6 class="card-title">Round 4</h6>
+            <h5 class="card-title">22-24 APR<img src="images/italy-flag.png" alt="italy flag" style="width: 30px; margin:1%"></h5>
+            <hr>
+            <h5 class="card-title">Italy</h5>
+            <p class="card-text">FORMULA 1 ROLEX GRAN PREMIO DEL MADE IN ITALY E DELL'EMILIA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--footer-->
+    <div class="container-fluid">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" href="index.html">
+            <img src="images/the-grid_logo.png" width="100" alt="the grid logo">
+          </a>
+          <span class="text-muted">Created by Ryan Bankier</span>
+        </div>
+      </footer>
+    </div> 
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Images sourced from https://www.motorsport.com/filter/f1/photos/ -->
+    <!-- Bootstrap CSS -->
+    <link href="css/boostrap/bootstrap.css" rel="stylesheet">
+    <!-- My own CSS-->
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon-flag.png">
+    <title>The Grid - Standings</title>
+  </head>
+  <body>
+    <!--Navigation-->
+    <div class="container-fluid">
+      <nav class="nabvar navbar-light">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-1 align-self-center">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="col-sm p-2">
+              <a class="navbar-brand p-2" href="index.html">
+                <img src="images/the-grid_logo.png" alt="" width="150"> 
+              </a>
+              <div class="offcanvas offcanvas-start offcanvas-dark bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close  btn-outline-light text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body menu-text">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item ">
+                      <a href="index.html" aria-current="page">News</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="schedule.html">schedule</a>
+                    </li>
+                    <li class="nav-item menu-text-active">
+                      <a href="standings.html">Standings</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="results.html">Race Results</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="newsletter.html">Newsletter</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="saved.html">Saved Articles</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col align-self-end">
+          <h1 class="text-end display-1">Standings</h1>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid bg-dark"><br></div>
+    <!--Content-->
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link" style="color:#CD2128" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-driver" type="button" role="tab" aria-controls="nav-driver" aria-selected="true">Driver</button>
+        <button class="nav-link" style="color:#CD2128" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-constructor" type="button" role="tab" aria-controls="nav-constructor" aria-selected="false">Constructor</button>
+      </div>
+    </nav> 
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade" id="nav-driver" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="card card-body">
+          <div class="container-fluid">
+            <h1>Driver Standings</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Driver</th>
+                  <th scope="col">Nationality</th>
+                  <th scope="col">Car</th>
+                  <th scope="col">Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Max Verstappen</td>
+                  <td>NED</td>
+                  <td>Redbull</td>
+                  <td>324</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Lewis Hamilton</td>
+                  <td>GBR</td>
+                  <td>Mercedes</td>
+                  <td>320</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Charles Leclerc</td>
+                  <td>MON</td>
+                  <td>Ferrari</td>
+                  <td>250</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Valtteri Bottas</td>
+                  <td>FIN</td>
+                  <td>Mercedes</td>
+                  <td>220</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Sergio Perez</td>
+                  <td>MEX</td>
+                  <td>Redbull</td>
+                  <td>216</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Carlos Sainz</td>
+                  <td>ESP</td>
+                  <td>Ferrari</td>
+                  <td>212</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>Daniel Ricciardo</td>
+                  <td>AUS</td>
+                  <td>Mclaren</td>
+                  <td>157</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>Pirre Gasly</td>
+                  <td>FRA</td>
+                  <td>Alphatauri</td>
+                  <td>157</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>Fernando Alonso</td>
+                  <td>ESP</td>
+                  <td>Alpine</td>
+                  <td>132</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>Esteban Ocon</td>
+                  <td>FRA</td>
+                  <td>Alpine</td>
+                  <td>132</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="https://www.formula1.com/en/results.html" target="_blank">> Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-constructor" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="card card-body">
+          <div class="container-fluid">
+            <h1>Constuctor Standings</h1>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Team</th>
+                  <th scope="col">Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Redbull</td>
+                  <td>324</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Mercedes</td>
+                  <td>320</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Ferrari</td>
+                  <td>250</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Mclaren</td>
+                  <td>157</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Alphatauri</td>
+                  <td>157</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>Alpine</td>
+                  <td>132</td>
+                </tr>
+                <tr>
+                  <th scope="row">7</th>
+                  <td>Aston Martin</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <th scope="row">8</th>
+                  <td>Williams</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <th scope="row">9</th>
+                  <td>Williams</td>
+                  <td>0</td>
+                </tr>
+                <tr>
+                  <th scope="row">10</th>
+                  <td>Alfa Romeo</td>
+                  <td>0</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="https://www.formula1.com/en/results.html" target="_blank">> Source</a>
+          </div>
+        </div>
+      </div>
+    <!--footer-->
+    <div class="container-fluid">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1" href="index.html">
+            <img src="images/the-grid_logo.png" width="100" alt="The grid logo">
+          </a>
+          <span class="text-muted">Created by Ryan Bankier</span>
+        </div>
+      </footer>
+    </div>  
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
